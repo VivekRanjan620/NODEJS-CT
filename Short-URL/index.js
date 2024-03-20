@@ -29,5 +29,5 @@ app.get("/:shortId",async (req,res)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log(`Server strt at ${PORT}`);
+    console.log(`Server start at ${PORT}`);
 });
